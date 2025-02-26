@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "elvishbhaiiii" {
-  bucket = "randomsena"
+  bucket = "randomsena"            # must be unique name
 
   tags = {
     Name        = "My bucket"
